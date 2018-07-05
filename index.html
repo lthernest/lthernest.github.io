@@ -1,1 +1,552 @@
-Hello World
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>GeoChartID26b45bdb50df</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- GeoChart generated in R 3.5.1 by googleVis 0.6.2 package -->
+<!-- Thu Jul 05 15:51:39 2018 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGeoChartID26b45bdb50df () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Afghanistan",
+1
+],
+[
+"Albania",
+3
+],
+[
+"Algeria",
+10
+],
+[
+"Argentina",
+813
+],
+[
+"Armenia",
+1
+],
+[
+"Australia",
+16545
+],
+[
+"Austria",
+1568
+],
+[
+"Bangladesh",
+33
+],
+[
+"Belarus",
+1370
+],
+[
+"Belgium",
+340
+],
+[
+"Benin",
+1
+],
+[
+"Bosnia and Herzegovina",
+8
+],
+[
+"Brazil",
+1079
+],
+[
+"Cambodia",
+4
+],
+[
+"Cameroon",
+3
+],
+[
+"Canada",
+6617
+],
+[
+"Chile",
+54
+],
+[
+"China",
+95701
+],
+[
+"Colombia",
+144
+],
+[
+"Congo",
+1
+],
+[
+"Costa Rica",
+2
+],
+[
+"Croatia",
+13
+],
+[
+"Cyprus",
+1
+],
+[
+"Czech Republic",
+64
+],
+[
+"Denmark",
+2563
+],
+[
+"Dominican Republic",
+1
+],
+[
+"Ecuador",
+2
+],
+[
+"Egypt",
+140
+],
+[
+"Estonia",
+37
+],
+[
+"Ethiopia",
+3
+],
+[
+"Fiji",
+25
+],
+[
+"Finland",
+70
+],
+[
+"France",
+2831
+],
+[
+"Georgia",
+948
+],
+[
+"Germany",
+2753
+],
+[
+"Greece",
+69
+],
+[
+"Guadeloupe",
+1
+],
+[
+"Hashemite Kingdom of Jordan",
+4
+],
+[
+"Hong Kong",
+1937
+],
+[
+"Hungary",
+26
+],
+[
+"Iceland",
+15
+],
+[
+"India",
+10504
+],
+[
+"Indonesia",
+106
+],
+[
+"Iran",
+230
+],
+[
+"Iraq",
+7
+],
+[
+"Ireland",
+34
+],
+[
+"Israel",
+40
+],
+[
+"Italy",
+284
+],
+[
+"Japan",
+2913
+],
+[
+"Kazakhstan",
+2867
+],
+[
+"Kenya",
+12
+],
+[
+"Kuwait",
+1
+],
+[
+"Kyrgyzstan",
+257
+],
+[
+"Latvia",
+3
+],
+[
+"Luxembourg",
+5
+],
+[
+"Macao",
+112
+],
+[
+"Malawi",
+1
+],
+[
+"Malaysia",
+126
+],
+[
+"Mali",
+3
+],
+[
+"Malta",
+2
+],
+[
+"Mexico",
+255
+],
+[
+"Mongolia",
+1
+],
+[
+"Montenegro",
+3
+],
+[
+"Morocco",
+8
+],
+[
+"Nepal",
+7
+],
+[
+"Netherlands",
+1198
+],
+[
+"New Zealand",
+106
+],
+[
+"Nicaragua",
+3
+],
+[
+"Nigeria",
+11
+],
+[
+"Norway",
+138
+],
+[
+"Oman",
+2
+],
+[
+"Pakistan",
+671
+],
+[
+"Panama",
+1
+],
+[
+"Peru",
+11
+],
+[
+"Philippines",
+1438
+],
+[
+"Poland",
+70
+],
+[
+"Portugal",
+358
+],
+[
+"Puerto Rico",
+9
+],
+[
+"Qatar",
+1
+],
+[
+"Republic of Korea",
+1797
+],
+[
+"Republic of Lithuania",
+3
+],
+[
+"Romania",
+29
+],
+[
+"Russia",
+11899
+],
+[
+"Saudi Arabia",
+3296
+],
+[
+"Senegal",
+4
+],
+[
+"Serbia",
+4
+],
+[
+"Singapore",
+171
+],
+[
+"Slovak Republic",
+270
+],
+[
+"Slovenia",
+32
+],
+[
+"South Africa",
+1531
+],
+[
+"Spain",
+886
+],
+[
+"Sri Lanka",
+14
+],
+[
+"Sudan",
+20
+],
+[
+"Sweden",
+1220
+],
+[
+"Switzerland",
+174
+],
+[
+"Taiwan",
+1649
+],
+[
+"Thailand",
+202
+],
+[
+"Tunisia",
+52
+],
+[
+"Turkey",
+732
+],
+[
+"Uganda",
+5
+],
+[
+"Ukraine",
+169
+],
+[
+"United Arab Emirates",
+775
+],
+[
+"United Kingdom",
+6261
+],
+[
+"United States",
+210005
+],
+[
+"Uruguay",
+4
+],
+[
+"Uzbekistan",
+172
+],
+[
+"Vietnam",
+59
+],
+[
+"Zimbabwe",
+1
+],
+[
+"Tanzania",
+3
+],
+[
+"Undefined",
+2471
+] 
+];
+data.addColumn('string','total_ip.complete_ip_country');
+data.addColumn('number','Freq');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGeoChartID26b45bdb50df() {
+var data = gvisDataGeoChartID26b45bdb50df();
+var options = {};
+
+
+
+    var chart = new google.visualization.GeoChart(
+    document.getElementById('GeoChartID26b45bdb50df')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "geochart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartGeoChartID26b45bdb50df);
+})();
+function displayChartGeoChartID26b45bdb50df() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID26b45bdb50df"></script>
+ 
+<!-- divChart -->
+  
+<div id="GeoChartID26b45bdb50df" 
+  style="width: 80%; height: 80%;">
+</div>
+ <div><span>Data: total_ip_result &#8226; Chart ID: <a href="Chart_GeoChartID26b45bdb50df.html">GeoChartID26b45bdb50df</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.5.1 beta (2018-06-21 r74927) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/geochart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
